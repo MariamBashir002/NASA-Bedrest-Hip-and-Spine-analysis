@@ -1,0 +1,11 @@
+SITE,Phase,Estimated % Change,95% CI Lower,95% CI Upper
+Hip,PRE_TEST,0.0,0.0,0.0
+Hip,IN_TEST,-3.15,-6.08,-0.23
+Hip,POST_TEST,-2.62,-5.02,-0.22
+Hip,FOLLOWUP_6MO,0.12,-2.67,2.92
+Hip,FOLLOWUP_1Y,0.36,-2.38,3.1
+Spine,PRE_TEST,0.0,0.0,0.0
+Spine,IN_TEST,-0.13,-3.01,2.75
+Spine,POST_TEST,-0.38,-2.75,1.98
+Spine,FOLLOWUP_6MO,-0.96,-3.72,1.8
+Spine,FOLLOWUP_1Y,-0.72,-3.43,1.98
