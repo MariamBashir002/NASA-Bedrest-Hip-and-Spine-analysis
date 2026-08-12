@@ -100,11 +100,13 @@ The Jupyter Notebook documents the full analysis workflow, including data prepar
 Nasa_bedrest.py
 The Python script provides a standalone version of the core data-processing, statistical modelling and visualisation workflow.
 Keeping both files provides an interactive record of the analysis alongside a reproducible script-based implementation.
+
 Limitations
 The number of observations is not necessarily identical across all study phases because of missing scans and incomplete follow-up.
 The findings are specific to the study cohort and should not automatically be generalised to all populations exposed to prolonged immobilisation or spaceflight.
 For the spine, the relatively small estimated changes and confidence intervals crossing zero mean that the results should be interpreted cautiously. In particular, the follow-up estimates should not be described as definitive evidence of persistent bone loss.
 The mixed-effects model also depends on the assumptions of the fitted model, and the analysis describes longitudinal changes across bedrest and recovery rather than independently establishing causality.
+
 Summary
 The main finding is a clear difference in the response of the hip and spine to prolonged unloading.
 Hip BMD decreased substantially during bedrest and showed recovery towards baseline during follow-up. Spine BMD changed much less, with no statistically clear evidence of persistent change through one year.
