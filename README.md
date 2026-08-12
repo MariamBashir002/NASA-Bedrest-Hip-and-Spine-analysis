@@ -57,7 +57,7 @@ The main longitudinal analysis used a **linear mixed-effects model** in `statsmo
 In simplified form:
 
 ```text
-BMD ~ Test Phase × Site + (1 | Subject)
+BMD ~ Test Phase × Site + (1 | Subject)```
 Percentage changes from baseline were calculated from the fitted model, with 95% confidence intervals.
 Results
 Hip
