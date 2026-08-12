@@ -55,9 +55,8 @@ Pre- and post-bedrest measurements were compared using paired **Cohen's *dz***.
 The main longitudinal analysis used a **linear mixed-effects model** in `statsmodels`, with BMD modelled as a function of study phase, skeletal site and their interaction. A random intercept for participant was included to account for repeated measurements.
 
 In simplified form:
-
 ```text
-BMD ~ Test Phase × Site + (1 | Subject)# NASA-Bedrest-Hip-and-Spine-analysis
+BMD ~ Test Phase × Site + (1 | Subject)
 Percentage changes from baseline were calculated from the fitted model, with 95% confidence intervals.
 Results
 Hip
