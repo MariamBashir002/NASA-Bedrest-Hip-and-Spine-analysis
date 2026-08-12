@@ -27,6 +27,14 @@ Five study phases were analysed:
 
 The final dataset contains **218 observations across hip and spine combined**.
 
+## Data Source
+
+Data obtained from NASA's Life Sciences Data Archive (LSDA): the MR035G AG Pilot 
+DXA Screening dataset, containing Dual-Energy X-ray Absorptiometry (DXA) 
+bone densitometry measurements from the Bone Densitometry Assessment (MR035G) 
+during the Artificial Gravity (AG) Pilot Study. 
+[Dataset link](https://nlsp.nasa.gov/view/lsdapub/lsda_dataset/e4adffb7-a755-513f-94d2-22619a8d7044).
+
 ## Data Preparation
 
 The raw hip data contained separate left- and right-side measurements. These were merged and averaged to obtain a single hip BMD value for each participant and study phase.
@@ -134,11 +142,15 @@ Keeping both files provides an interactive record of the analysis alongside a re
 
 The number of observations is not necessarily identical across all study phases because of missing scans and incomplete follow-up.
 
+The sample size is relatively small (n = 27 for the paired pre/post comparison), which limits statistical power and contributes to the wide confidence intervals seen in the follow-up estimates, particularly for the spine.
+
 The findings are specific to the study cohort and should not automatically be generalised to all populations exposed to prolonged immobilisation or spaceflight.
 
 For the spine, the relatively small estimated changes and confidence intervals crossing zero mean that the results should be interpreted cautiously. In particular, the follow-up estimates should not be described as definitive evidence of persistent bone loss.
 
 The mixed-effects model also depends on the assumptions of the fitted model, and the analysis describes longitudinal changes across bedrest and recovery rather than independently establishing causality.
+
+The dataset combines participants from several different study campaigns (DBLS, UTMB Campaign 5, Pilot, UTMB Campaign 3, UTMB Campaign 1, and MEDES). Protocols and conditions may not be fully identical across campaigns, which could introduce additional variability beyond individual differences between participants.
 
 ## Summary
 
